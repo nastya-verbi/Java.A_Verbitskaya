@@ -8,21 +8,21 @@ public class HomeWork03 {
         printArr(arr1);
         System.out.println();
         myArr1(arr1);
-        printArr1(arr1);
+        printArr(arr1);
         System.out.println();
         System.out.println();
 
         int[] arr2 = new int [100];
         myArr2(arr2);
-        printArr1(arr2);
+        printArr(arr2);
         System.out.println();
         System.out.println();
 
         int[] arr3 = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
-        printArr1(arr3);
+        printArr(arr3);
         System.out.println();
         myArr3(arr3);
-        printArr1(arr3);
+        printArr(arr3);
         System.out.println();
         System.out.println();
 
@@ -32,7 +32,7 @@ public class HomeWork03 {
         System.out.println();
         System.out.println();
 
-        printArr1(myReturnArr(10,5));
+        printArr(myReturnArr(10,5));
         System.out.println();
         System.out.println();
 
@@ -61,11 +61,7 @@ public class HomeWork03 {
         }
     }
 
-    public static void printArr1(int[] printArr1) {
-        for (int i = 0; i < printArr1.length; i++) {
-            System.out.print(printArr1[i]  + " ");
-        }
-    }
+   
 
 
     /**
