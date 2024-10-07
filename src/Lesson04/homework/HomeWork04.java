@@ -56,8 +56,6 @@ public class HomeWork04 {
 
     }
 
-
-
     // Создать карту, создать игрока, создать врагов
 
     public static void gameCycle() {
